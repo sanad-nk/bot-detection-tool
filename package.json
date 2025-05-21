@@ -1,0 +1,13 @@
+{
+    "name": "bot-detection-backend",
+    "version": "1.0.0",
+    "description": "Backend API for Bot Detection Tool",
+    "main": "app.py",
+    "scripts": {
+      "start": "python app.py",
+      "train": "python -c 'from app import train_model; train_model(\"training_data_2_csv_UTF.csv\")'"
+    },
+    "dependencies": {
+      "python": ">=3.8.0"
+    }
+  }
